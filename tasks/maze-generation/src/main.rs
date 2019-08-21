@@ -44,10 +44,10 @@ impl Maze {
         let mut rng = thread_rng();
         for row in 0..self.grid.len() {
             for col in 0..self.grid[row].len() {
-                self.grid[row][col].up = rng.next_u32() % 2 == 0;
-                self.grid[row][col].down = rng.next_u32() % 2 == 0;
-                self.grid[row][col].left = rng.next_u32() % 2 == 0;
-                self.grid[row][col].right = rng.next_u32() % 2 == 0;
+                self.grid[row][col].up = rng.gen();
+                self.grid[row][col].down = rng.gen();
+                self.grid[row][col].left = rng.gen();
+                self.grid[row][col].right = rng.gen();
             }
         }
     }
