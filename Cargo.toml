@@ -836,6 +836,9 @@ members = [
     # http://rosettacode.org/wiki/Maximum_triangle_path_sum
     "tasks/maximum-triangle-path-sum",
 
+    # http://rosettacode.org/wiki/Maze_generation#
+    "tasks/maze-generation",
+
     # http://rosettacode.org/wiki/MD4
     "tasks/md4",
 
